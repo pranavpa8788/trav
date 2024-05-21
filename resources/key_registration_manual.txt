@@ -1,0 +1,23 @@
+KEYS
+Traverse to current dir's parent = up arrow / k
+
+Traverse to current dir's lefmost child = j
+Traverse to current dir's middle child = down arrow
+Traverse to current dir's rightmost child = J
+
+Traverse to current dir's left sibling = left arrow  / h
+Traverse to current dir's right sibling = right arrow / l
+
+Traverse to leftmost sibling node = H
+Traverse to rightmost sibling node = L
+
+Traverse to root head dir = gt / K
+
+Traverse to left deepest child node = a
+Traverse to right deepest child node = d
+
+Traverse to left node on same depth = q
+Traverse to right node on same depth = e
+
+Traverse to leftmost sibling node in same depth = Q
+Traverse to rightmost sibling node in same depth = E
