@@ -1,2 +1,4 @@
-# trav
-A Traversible Tree command line program
+* install python package (or add to path)
+* add trav.sh to path
+* alias, trav = . trav.sh
+* 

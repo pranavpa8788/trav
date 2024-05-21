@@ -1,0 +1,67 @@
+TODO
+2. move endOperation logic to mode (rethink endOperation logic and mode logic)
+5. change from release logic to press logic
+3. Move key registrations to json/py file
+6. rethink all references to tree instances that have been passed
+3. normalize args for Node class
+2. rethink structure, folder classification, project name
+4. scaling the terminal zoom according to tree size
+    - not possible to control the terminal zoom size within python
+    - possible alternatives (contract large children into ...)
+5. Rethink key data structure (maybe split into two classes, SingleKey, MultipleKey)
+
+HOTFIXES
+1. Fix failing testcases involving findChildNodeByName
+2. Move escape sequences to terminal graphics lib
+3. Add functionality to powershell
+4. Fix bash help text issue
+
+BUGS
+1. bugs with calling updateTree more than once
+2. dot files are not being handled in the command line arg
+
+COMMAND LINE ARGS:
+2. headHeight, tailHeight
+3. showOnlyDirs
+4. showDotDirs
+5. showEmptyDirs
+6. cycleOnSameLevel
+9. searchChildNode
+
+TESTS
+1. Test tree hard coded structure - done
+
+FEATURES (to be implemented)
+1. dynamic listing (frame rate)
+2. Config file for customizing key binding
+
+DONE
+1. show only dirs
+2. cd into out
+3. head, tail levels
+4. path args
+5. esc, q to quit/cancel op
+7. cycle through same level
+8. jump to nearest child
+9. show dot dirs as well
+10. jump to lowest level (leftmost and rightmost)
+11. same level different parent
+12. support left, right, up, down (basic) ops
+13. support shortcuts (move to top root)
+14. search operation support
+15. Optimization - map keys to function pointers
+16. Key combo for middle child
+17. commandline args - copy, out to stdout, cd
+18. default parent for recursive functions?
+19. handle command parser
+20. modify to accept command line args
+21. testing all combinations for dir showing configs
+22. reframe testing for traversals
+23. search child node
+24. multiple key presses not working
+25. Implement mode
+26. -h 1 -t 1, traverse ops not working - working now
+27. Fix traversal issues
+28. Fix permission issue
+
+

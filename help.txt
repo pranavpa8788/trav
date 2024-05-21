@@ -1,0 +1,15 @@
+Usage: trav -c|-C|-o [OPTION]
+
+Mandatory arguments:
+    -c, --change-directory                  cd into the output
+    -C, --copy                              copy the output into clipboard
+    -o, --output                            display the output in stdout
+
+Optional arguments:
+    -p, --path=[STR]                        specify the path, default is current working directory
+    -s, --show-only-dirs=[BOOL]             show only directories, default is False
+    -h, --head=[INT]                        search depth for topmost root node, default is 3
+    -t, --tail=[INT]                        search depth for deepest leaf node, default is 3
+    -l, --cycle=[BOOL]                      cycle on left/right sibling traversals, default is True
+    -a, --all=[BOOL]                        do not ignore entries starting with . and .., default is False
+    -e, --show-empty-dirs=[BOOL]            show empty directories, default is True
